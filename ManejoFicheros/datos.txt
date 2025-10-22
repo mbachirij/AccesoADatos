@@ -1,0 +1,8 @@
+10
+5
+hola
+20
+adios
+15
+
+Suma total = 50

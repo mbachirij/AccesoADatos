@@ -1,0 +1,9 @@
+bla: 4
+bumbum: 2
+estoy: 2
+hola: 1
+mako: 1
+malo: 1
+pum: 1
+que: 1
+tal: 1
