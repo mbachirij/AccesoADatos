@@ -1,8 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import java.sql.*;
-
-
 public class Main {
     public static void main(String[] args) {
         try {
@@ -10,17 +8,17 @@ public class Main {
             //falta cargar el driver ya.
             // Class.forName("com.mysql.jdbc.Driver");
             // Establecemos la conexion con la BD
-            Connection conexion =
-            DriverManager.getConnection("jdbc:mysql://localhost/manejo_conectores", "root", "");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/manejo_conectores", "root",
+                            "");
             // Preparamos la consulta
             Statement sentencia = conexion.createStatement();
             String sql = "SELECT * FROM departamentos";
             ResultSet resul = sentencia.executeQuery(sql);
             // Recorremos el resultado para visualizar cada fila
-                // Se hace un bucle mientras haya registros y se van visualizando
+            // Se hace un bucle mientras haya registros y se van visualizando
             while (resul.next()) {
                 System.out.printf("%d, %s, %s %n", resul.getInt(1),
-                        resul.getString(2), resul.getString(3));
+                resul.getString(2), resul.getString(3));
             }
             resul.close(); // Cerrar ResultSet
             sentencia.close(); // Cerrar Statement
