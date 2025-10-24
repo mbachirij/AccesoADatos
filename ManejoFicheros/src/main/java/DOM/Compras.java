@@ -22,10 +22,14 @@ public class Compras {
         //Te consigo el elemento raíz
         Element compras = (Element) doc.getElementsByTagName("Compras").item(0);
 
+        //Creo el elemento de la nueva compra
         Element nuevaCompra = doc.createElement("Compra");
+        //Le asigno el atributo id
         nuevaCompra.setAttribute("id", "4");
 
+        //Creo los hijos de la nueva compra
         Element fecha = doc.createElement("fecha");
+        //Le asigno el contenido
         fecha.setTextContent("20/05/2021");
 
         Element ubicacion = doc.createElement("ubicacion");
