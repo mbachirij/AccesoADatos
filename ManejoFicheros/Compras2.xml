@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Compras>
     <Compra id="1">
-        <fecha>10-12-1999</fecha>
+        <fecha>10/12/1999</fecha>
         <ubicación>Nájera</ubicación>
         <articulos cantidad="3">
             <articulo id="1">tomate</articulo>
@@ -10,7 +10,7 @@
         </articulos>
     </Compra>
     <Compra id="2">
-        <fecha>16-06-2025</fecha>
+        <fecha>16/06/2025</fecha>
         <ubicación>Logroño</ubicación>
         <articulos cantidad="5">
             <articulo id="1">tomate</articulo>
@@ -21,7 +21,7 @@
         </articulos>
     </Compra>
     <Compra id="3">
-        <fecha>31-01-2006</fecha>
+        <fecha>31/01/2006</fecha>
         <ubicación>Hormilla</ubicación>
         <articulos cantidad="6">
             <articulo id="1">tomate</articulo>

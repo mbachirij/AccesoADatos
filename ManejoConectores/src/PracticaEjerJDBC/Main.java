@@ -1,4 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+package PracticaEjerJDBC;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import java.sql.*;
 public class Main {
@@ -6,7 +6,9 @@ public class Main {
         try {
             // Aunque veáis este código en algunos programas, no hace
             //falta cargar el driver ya.
-            // Class.forName("com.mysql.jdbc.Driver");
+
+                //Class.forName("com.mysql.jdbc.Driver");
+
             // Establecemos la conexion con la BD
             Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/manejo_conectores", "root",
                             "");
