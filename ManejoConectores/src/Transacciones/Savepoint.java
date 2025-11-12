@@ -38,7 +38,7 @@ public class Savepoint {
             } catch (SQLException e) {
                 System.out.println("⚠️ Error en segunda inserción, rollback al savepoint");
                 e.printStackTrace();
-                con.rollback(sp); // Revierte solo la segunda inserción
+
             }
             ps2.close();
 
